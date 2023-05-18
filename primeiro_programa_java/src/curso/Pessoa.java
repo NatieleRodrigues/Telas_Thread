@@ -9,7 +9,7 @@ public class Pessoa {
 	private int idade;
 	private String sexo;
 	private Date dataNascimento;
-	
+	private String endereco;
 	
 	
 	public String getSexo() {
