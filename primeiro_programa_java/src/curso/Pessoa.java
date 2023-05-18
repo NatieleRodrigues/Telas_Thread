@@ -1,12 +1,29 @@
 package curso;
 
+import java.util.Date;
+
 public class Pessoa {
 	
 	private String nome;
 	private String sobrenome;
 	private int idade;
+	private String sexo;
+	private Date dataNascimento;
 	
 	
+	
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
 	public int getIdade() {
 		return idade;
 	}
